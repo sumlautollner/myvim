@@ -1,0 +1,97 @@
+cd ~/.vim/bundle
+
+git clone git://github.com/jiangmiao/auto-pairs.git
+git clone git://github.com/altercation/vim-colors-solarized.gits
+git clone https://github.com/tomtom/tlib_vim.git
+
+git clone https://github.com/garbas/vim-snipmate.git
+vim -u NONE -c "helptags vim-snipmate/doc" -c q
+
+git clone --recursive https://github.com/davidhalter/jedi-vim.git
+vim -u NONE -c "helptags jedi-vim/doc" -c q
+
+# Optinal
+git clone https://github.com/honza/vim-snippets.git
+git clone https://github.com/vim-scripts/pep8.git
+git clone https://github.com/fs111/pydoc.vim.git
+
+git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
+vim -u NONE -c "helptags vim-addon-me-utils/doc" -c q
+
+
+# Install Pylint (dnf install pylint, pip install pylint)
+
+git clone https://github.com/vim-scripts/TaskList.vim.git
+
+git clone https://github.com/git-mirror/vim-fuzzyfinder.git
+vim -u NONE -c "helptags vim-fuzzyfinder/doc" -c q
+
+git clone https://github.com/vim-scripts/L9.git
+vim -u NONE -c "helptags L9/doc" -c q
+
+git clone http://github.com/sjl/gundo.vim.git
+vim -u NONE -c "helptags gundo/doc" -c q
+
+
+# Syntastic
+git clone https://github.com/scrooloose/syntastic.git
+vim -u NONE -c "helptags syntastic/doc" -c q
+
+# Vim Powerline alternative
+git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
+vim -u NONE -c "helptags vim-airline/doc" -c q
+
+git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+vim -u NONE -c "helptags ctrlp/doc" -c q
+
+# Line number toggle 
+git clone git://github.com/jeffkreeftmeijer/vim-numbertoggle.git
+vim -u NONE -c "helptags vim-numbertoggle/doc" -c q
+
+# xmledit
+
+# sparkup 
+git clone https://github.com/rstacruz/sparkup.git
+cd sparkup
+make vim-pathogen
+vim -u NONE -c "helptags sparkup/doc" -c q
+
+# NERDCommenter
+git clone https://github.com/scrooloose/nerdcommenter.git
+vim -u NONE -c "helptags nerdcommenter/doc" -c q
+
+# Fugitive GIT plugin
+git clone git://github.com/tpope/vim-fugitive.git
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
+
+# Tagbar 
+https://github.com/majutsushi/tagbar.git
+vim -u NONE -c "helptags tagbar/doc" -c q
+
+# Matchit
+git clone https://github.com/tmhedberg/matchit.git
+
+# vim-django
+git clone https://github.com/cwood/vim-django.git
+vim -u NONE -c "helptags vim-django/doc" -c q
+
+
+# vim-javascript 
+git clone https://github.com/pangloss/vim-javascript.git
+vim -u NONE -c "helptags vim-javascript/doc" -c q
+
+# css colors plugin
+git clone https://github.com/skammer/vim-css-color.git
+vim -u NONE -c "helptags vim-css-color/doc" -c q
+
+# Pick a color plugin
+git clone https://github.com/vim-scripts/PickAColor.vim.git
+vim -u NONE -c "helptags PickAColor.vim/doc" -c q
+
+# HTML 5 
+git clone https://github.com/othree/html5.vim.git
+vim -u NONE -c "helptags html5.vim/doc" -c q
+
+# Vim Emmet
+git clone http://github.com/mattn/emmet-vim.git
+
